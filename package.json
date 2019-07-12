@@ -1,0 +1,19 @@
+{
+  "name": "redusers",
+  "version": "0.1.0",
+  "description": "Simple app with Redis database and handlebars bootstrap UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "maxsimych",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "nodemon": "^1.19.1",
+    "redis": "^2.8.0",
+    "util-promisifyall": "^1.0.6"
+  }
+}
